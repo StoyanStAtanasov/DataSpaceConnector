@@ -105,6 +105,11 @@ include(":extensions:jdk-logger-monitor")
 include(":extensions:inline-data-transfer:inline-data-transfer-core")
 include(":extensions:inline-data-transfer:inline-data-transfer-spi")
 
+// modules for the data-plane
+include(":extensions:data-plane:data-plane-spi")
+include(":extensions:data-plane:data-plane-framework")
+include(":extensions:data-plane:data-plane-http")
+
 // modules for launchers, i.e. runnable compositions of the app
 include(":launchers:basic")
 include(":launchers:junit")
