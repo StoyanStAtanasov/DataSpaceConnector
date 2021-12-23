@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.util.stream.Stream;
 
 /**
- * Implements pull semantics for accessing a data source. A data source is composed or one or more named parts. Some implementations may support random access of the underlying
+ * Implements pull semantics for accessing a data source. A data source is composed of one or more named parts. Some implementations may support random access of the underlying
  * part content so that large content transfers can be parallelized.
  */
 public interface DataSource {
